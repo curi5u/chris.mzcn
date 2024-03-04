@@ -217,7 +217,7 @@ header {
 
 .slidetitle {
   position: relative;
-  font-family: 'Alte Haas Grotesk Bold';
+  font-family: 'Alte Haas Grotesk';
   color: rgb(255, 255, 255);
   font-size: clamp(20px, 10vw, 75px);
   margin: 0;
