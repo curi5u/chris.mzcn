@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <title>chris.mzcn</title>
+      <meta name="Chris Mazzoncini" content="Chris Mazzoncini // Storyteller, Musician & Designer">
+      <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+      <meta name="viewport" content="user-scalable=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--dependencies-->
+      <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+      <!--css-->
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+
+        <div id="grain"></div>
+
+        <!--HEADER-->
+        <header>
+
+          <img src="../logos/logo.svg" id="logo"><img>
+
+
+          <!-- FILTERS -->
+          <div id="filters">
+           <p><u>filters:</u></p>
+            <input id="music-ckbx" type="checkbox" name="filters" value="music" checked>
+            <p>music</p>
+            <input id="audiovisual-ckbx" type="checkbox" name="filters" value="audiovisual" checked>
+            <p>audiovisual</p>
+            <input id="film-ckbx" type="checkbox" name="filters" value="film" checked>
+            <p>film</p>
+            <input id="design-ckbx" type="checkbox" name="filters" value="design" checked>
+            <p>design</p>
+          </div>
+
+        </header>
+
+
+
+
+        <!--MAIN-->
+        <main>
+
+            <div class="content">
+
+
+                <!--POLVERE--> 
+                <!-- <div class="slide" id="polvere" data-id="polvere" data-category="music audiovisual">
+                  <a id="link" href="https://www.youtube.com/" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/polvere_trailer.mp4" fetchpriority="high"></video>
+                    <h1 class="slidetitle">Polvere</h1>
+                    <p class="slidedescription">about dust and cycles.</p>
+                  </a>
+                </div> -->
+
+                <!--TRE VOCI (MISSING LINK)-->
+                <div class="slide" id="trevoci" data-id="trevoci" data-category="audiovisual">
+                  <a id="link" href="https://youtu.be/i48FcbBHzfI" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/trevoci_trailer.mp4" fetchpriority="high"></video>
+                    <h1 class="slidetitle">Tre Voci</h1>
+                  </a>
+                  <p class="slidedescription">trailer for a live performance based on a radio play by sylvia plath, written by <a href="https://www.instagram.com/tilia.auser/">tilia auser</a>.</p>
+                </div>                
+
+                <!--NUBE RINGS GRIDS-->
+                <div class="slide" id="nuberingsgrids" data-id="nuberingsgrids" data-category="design">
+                  <a id="link" href="https://chrismzcn.gumroad.com/l/nuberingsgrids" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/nuberingsgrids_trailer.mp4" fetchpriority="high"></video>
+                    <h1 class="slidetitle">Nube Rings Grids</h1>
+                  </a>
+                  <p class="slidedescription">max for live portings of mutable instruments modules.</p>
+                </div>
+
+                <!--AQUANAE-->
+                <div class="slide" id="aquanae" data-id="aquanae" data-category="audiovisual">
+                  <a id="link" href="https://youtu.be/3VZcC8B-0tg" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/aquanae_trailer.mp4" fetchpriority="high"></video>
+                    <h1 class="slidetitle">Aquanae</h1>
+                  </a>
+                  <p class="slidedescription">trailer for a ritual performance at the center of a labyrinth, written by <a href="https://www.instagram.com/tilia.auser/">tilia auser</a>.</p>
+                </div>
+
+                <!--ULTIMO D'ANNUNZIO-->
+                <div class="slide" id="ultimodannunzio" data-id="ultimodannunzio" data-category="audiovisual">
+                  <a id="link" href="https://youtu.be/cwYIaKXj54U" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/ultimodannunzio_trailer.mp4"></video>
+                    <h1 class="slidetitle">Ultimo D'Annunzio</h1>
+                  </a>
+                  <p class="slidedescription">videoclip trilogy for <a href="https://www.alfredomarasti.it/">alfredo marasti</a>.</p>
+                </div>
+
+                <!--YEARNING ARCADIA-->
+                <div class="slide" id="ynarcadia" data-id="ynarcadia" data-category="film">
+                  <a id="link" href="https://www.youtube.com/watch?v=tfzrcu-MxuQ" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/ynarcadia_trailer.mp4"></video>
+                    <h1 class="slidetitle">Yearning Arcadia</h1>
+                  </a>
+                  <p class="slidedescription">about the pursue of knowledge.</p>
+                </div>
+
+                <!--ECOLOGY-->
+                <div class="slide" id="ecology" data-id="ecology" data-category="music audiovisual">
+                  <a id="link" href="https://www.youtube.com/watch?v=RhNiswvPawk" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/ecology_trailer.mp4"></video>
+                    <h1 class="slidetitle">Ecology</h1>
+                  </a>
+                  <p class="slidedescription">about home.</p>
+                </div>
+  
+                <!--ARCADIA-->
+                <div class="slide" id="arcadia" data-id="arcadia" data-category="music">
+                  <a id="link" href="https://chrism.bandcamp.com/album/arcadia" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/arcadia_trailer.mp4"></video>
+                    <h1 class="slidetitle">Arcadia</h1>
+                  </a>
+                  <p class="slidedescription">about harnessing time in a timeless land.</p>
+                </div>
+
+                <!--ALLE AGITATE-->
+                <div class="slide" id="alleagitate" data-id="alleagitate" data-category="audiovisual">
+                  <a id="link" href="https://youtu.be/1Zq00Kzfoak" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/alleagitate_trailer.mp4"></video>
+                    <h1 class="slidetitle">Alle Agitate</h1>
+                  </a>
+                  <p class="slidedescription">video performance about maggiano's asylum, written by <a href="https://www.instagram.com/tilia.auser/">tilia auser</a>.</p>
+                </div>
+
+                <!--CAPRIOLE-->
+                <div class="slide" id="capriole" data-id="capriole" data-category="music">
+                  <a id="link" href="https://chrism.bandcamp.com/album/capriole-di-marzo" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/capriole_trailer.mp4"></video>
+                    <h1 class="slidetitle">Capriole Di Marzo</h1>
+                  </a>
+                  <p class="slidedescription">music for a documentary on garfagnana, written by <a href="https://linktr.ee/stefano.dp">stefano antonucci</a>.</p>
+                </div>
+
+                <!--ROOTS-->
+                <div class="slide" id="roots" data-id="roots" data-category="music">
+                  <a id="link" href="https://chrism.bandcamp.com/album/roots" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/roots_trailer.mp4"></video>
+                    <h1 class="slidetitle">Roots</h1>
+                  </a>
+                  <p class="slidedescription">about lives apart.</p>
+                </div>
+              
+                <!--REF WORKS-->
+                <div class="slide" id="refworks" data-id="refworks" data-category="music">
+                  <a id="link" href="https://chrism.bandcamp.com/album/refurbished-works-2015-2019" target="_blank">
+                    <video class="videobox" muted="true" loop="true" autoplay="true" src="videos/refworks_trailer.mp4"></video>
+                    <h1 class="slidetitle">Refurbished Works</h1>
+                  </a>
+                  <p class="slidedescription">about what's been.</p>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!--FOOTER-->
+        <footer>
+
+          <div id="footerlinks">
+
+            <!--YOUTUBE-->
+            <a href="https://www.youtube.com/channel/UC358ZxsCp8yGXuZ0OxA7L4g" target="_blank">
+              <img class="linkicon" src="icons/YT.svg"></img>
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/chrismzcn/" target="_blank">
+              <img class="linkicon" src="icons/IG.svg"></img>
+            </a>
+
+            <!--GUMROAD-->
+            <a href="https://chrismzcn.gumroad.com/" target="_blank">
+              <img class="linkicon" src="icons/GR.svg"></img>
+            </a>
+
+            <!--BANDCAMP-->
+            <a href="https://chrism.bandcamp.com/" target="_blank">
+              <img class="linkicon"src="icons/BC.svg"></img>
+            </a>         
+
+            <!--MAIL-->
+            <a href="mailto:christianmazzoncini@gmail.com" target="_blank">
+              <img class="linkicon"src="icons/mail.svg"></img>
+            </a> 
+
+          </div>
+
+        </footer>
+
+
+
+        <!--INTERACTIONS-->
+
+        <script src="interactions.js"></script>
+        <script src="filter.js"></script>
+        <script src="performance.js"></script>
+
+    </body>
+
+
+    <!-- TO DO:
+    - Long press on icons 
+    - Drag on icons
+    - Maybe open page in popup?
+    -->
+
+
+
+</html>
