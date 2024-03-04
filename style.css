@@ -4,16 +4,16 @@
 /* FONTS */
 @font-face {
   font-family: 'Alte Haas Grotesk';
-  src: url('/fonts/altehaasgroteskregular.woff2') format('woff2'),
-       url('/fonts/altehaasgroteskregular.woff') format('woff'),
-       url('/fonts/altehaasgroteskregular.ttf') format('truetype');
+  src: url('./fonts/altehaasgroteskregular.woff2') format('woff2'),
+       url('./fonts/altehaasgroteskregular.woff') format('woff'),
+       url('./fonts/altehaasgroteskregular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Alte Haas Grotesk Bold';
-  src: url('/fonts/altehaasgroteskbold.woff2') format('woff2'),
-       url('/fonts/altehaasgroteskbold.woff') format('woff'),
-       url('/fonts/altehaasgroteskbold.ttf') format('truetype');
+  src: url('./fonts/altehaasgroteskbold.woff2') format('woff2'),
+       url('./fonts/altehaasgroteskbold.woff') format('woff'),
+       url('./fonts/altehaasgroteskbold.ttf') format('truetype');
 }
 
 html, body {
