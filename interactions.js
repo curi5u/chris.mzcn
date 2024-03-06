@@ -83,9 +83,9 @@ document.addEventListener('mousedown', function(event) {
             this.classList.remove('hovered')
         });
 
-        link.addEventListener('touchstart', function() {
+        link.addEventListener('touchstart', function() {;
             this.classList.add('clicked')
-        });
+        }, {passive: true});
 
         link.addEventListener('touchend', function() {
             this.classList.remove('clicked')
