@@ -186,7 +186,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  scroll-snap-align: end;
   height: 20vh;
   width: 100vw;
   filter: saturate(80%) brightness(90%);
@@ -265,7 +264,6 @@ header {
 
 footer {
   height: 20vh;
-  scroll-snap-align: start;
 }
 
 #footerlinks {
