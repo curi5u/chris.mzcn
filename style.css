@@ -62,11 +62,22 @@ header {
   position: relative;
   filter: invert();
   width: clamp(200px, 90vw, 350px);
+  opacity: 90%;
   margin: 0;
   padding: 0;
   padding-top: 4vh;
 }
 
+#motto {
+  position: relative;
+  font-family: 'Alte Haas Grotesk';
+  color: rgb(255, 255, 255);
+  font-size: 20.7px;
+  top: -4px;
+  padding: 0;
+  margin: 0;;
+  opacity: 70%;
+}
 
 
 /* FILTERS */
@@ -148,6 +159,12 @@ header {
     margin-left: 0vw;
   }
 
+  #motto {
+    text-align: center;
+    font-size: 5.2vw;
+    top: -22px;
+  }
+
   #logo {
     margin-left: 20px;
     margin-right: 20px;
@@ -188,14 +205,13 @@ header {
   align-items: flex-start;
   height: 20vh;
   width: 100vw;
-  filter: saturate(80%) brightness(90%);
+  filter: saturate(100%) brightness(90%);
   transition: filter 1s ease;
   margin-top: -55px;
   padding: 0;
   margin: 0;
   cursor: pointer;
 }
-
 
 .clicked {
   opacity: 0.2;
@@ -209,8 +225,10 @@ header {
 }
 
 .hovered {
-  filter: saturate(170%) brightness(120%);
+  filter: saturate(200%) brightness(120%);
 }
+
+
 
 .slidetitle {
   position: relative;
@@ -227,12 +245,12 @@ header {
   font-family: 'Alte Haas Grotesk';
   font-style: italic;
   color: rgb(255, 255, 255);
-  font-size: clamp(10px, 3vw, 30px);
+  font-size: clamp(10px, 3.5vw, 30px);
   padding: 0;
   margin: 0;
   margin-left: 4vw;
   margin-right: 2vw;
-  line-height: 3vw;
+  line-height: 3.5vw;
   opacity: 70%;
 }
 
