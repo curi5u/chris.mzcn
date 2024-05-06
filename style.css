@@ -31,7 +31,7 @@ a,a:hover,a:visited {
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
-}
+} 
 
 
 
@@ -73,7 +73,7 @@ header {
   font-family: 'Alte Haas Grotesk';
   color: rgb(255, 255, 255);
   font-size: 20.7px;
-  top: -4px;
+  top: -8px;
   padding: 0;
   margin: 0;
   opacity: 70%;
