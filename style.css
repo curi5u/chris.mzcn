@@ -56,6 +56,7 @@ a,a:hover,a:visited {
 
 header {
   margin-left: 4vw;
+  display: inline-block;
 }
 
 #logo {
@@ -73,7 +74,6 @@ header {
   font-family: 'Alte Haas Grotesk';
   color: rgb(255, 255, 255);
   font-size: 20.7px;
-  top: -8px;
   padding: 0;
   margin: 0;
   opacity: 70%;
@@ -153,39 +153,7 @@ header {
 }
 
 
-/* handle screen size */
 
-@media (max-width: 400px) {
-  header {
-    margin-left: 0vw;
-  }
-
-  #motto {
-    text-align: center;
-    font-size: 5.2vw;
-    top: -22px;
-  }
-
-  #logo {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  #filters {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  #filters p {
-    margin-right: 2vw;
-  }
-
-  #filters input {
-    margin-right: 0.8vh;
-    aspect-ratio: 1;
-  }
-  
-}
 
 
 
@@ -202,9 +170,9 @@ header {
 .slide {
   -webkit-tap-highlight-color: rgba(234, 234, 234, 0.269);
   display: flex;
+  align-content: flex-start;
   flex-direction: column;
-  align-items: flex-start;
-  height: 20vh;
+  height: 25vh;
   width: 100vw;
   filter: saturate(100%) brightness(90%);
   transition: filter 1s ease;
@@ -220,7 +188,7 @@ header {
 
 .videobox {
   position: absolute;
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   object-fit: cover;
 }
@@ -235,9 +203,10 @@ header {
   position: relative;
   font-family: 'Alte Haas Grotesk Bold';
   color: rgb(255, 255, 255);
-  font-size: clamp(20px, 10vw, 75px);
+  font-size: clamp(20px, 9vw, 75px);
   margin: 0;
   margin-left: 4vw;
+  margin-top: 1vh;
   word-spacing: -5px;
 }
 
@@ -268,12 +237,8 @@ header {
 
 /* SLIDE SPECIFIC RULES */
 
-#capriole video,
-#roots video,
-#polvere video,
-#ynarcadia video,
-#refworks video {
-  filter: brightness(60%);
+video {
+  filter: brightness(45%);
 }
 
 
@@ -307,3 +272,48 @@ footer {
   filter: brightness(100%);
 }
 
+
+
+
+
+/* handle screen size */
+
+@media (max-width: 400px) {
+  
+  header {
+    margin-left: 0vw;
+  }
+
+  #motto {
+    text-align: center;
+    font-size: 4.65vw;
+  }
+
+  #logo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #filters {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #filters p {
+    margin-right: 2vw;
+  }
+
+  #filters input {
+    margin-right: 0.8vh;
+    aspect-ratio: 1;
+  }
+
+  .slide {
+    height: 20vh;
+  }
+
+  .videobox {
+    height: 20vh;
+  }
+  
+}
