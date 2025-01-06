@@ -239,6 +239,11 @@ header {
 
 video {
   filter: brightness(45%);
+  
+}
+
+video::-webkit-media-controls {
+  opacity: 0;
 }
 
 
